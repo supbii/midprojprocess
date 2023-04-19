@@ -131,7 +131,7 @@ h1{font-family: 'EstablishRetrosans','NexonLv1Gothic';}
     left: 50%; transform: translateX(-50%); top: 0;}
 .page4text1 {/* 이 모든 문제의 원인은 바로*/
     position: absolute; left: 50%; transform: translateX(-50%); top: 45%;
-    font-family: 'NEXON Lv1 Gothic OTF'; font-style: normal; font-weight: 700;
+    font-family: 'NEXONLv1Gothic'; font-style: normal; font-weight: 700;
     font-size: 4.5rem; line-height: 100px;
     text-align: center; color: #000000;}
 .page4tx1 {/*사회성!*/ color: #FF4D00;}
