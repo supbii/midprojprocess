@@ -1,0 +1,179 @@
+body {margin: 0; padding: 0;}
+.navbar {position: fixed; top: 0; left: 0; width: 100%; 
+    justify-content: space-between; display: flex;
+    align-items: center; padding: 10px; background-color: transparent; z-index: 1; }
+.navbar-logo {margin-right: 20px;}
+.navbar-logo img {height: 30px;}
+.navbar-nav {display: flex; list-style: none;
+        margin: 20px 30px; padding: 0;}
+.nav-item {margin-left: 30px;}
+.nav-item a {color: #333; text-decoration: none;
+        font-weight: normal;}
+.page {height: 100vh; display: flex;
+    align-items: center; justify-content: center;}
+#page1 {position: relative; z-index: 0; width: 100%; height: 100vh;
+    background: rgb(244,253,148);
+    background: linear-gradient(180deg, rgba(244,253,148,1) 0%, rgba(250,255,0,1) 27%, rgba(255,77,0,1) 100%);
+    background-size: cover;}
+body{font-family: 'NexonLv1Gothic';}
+h1{font-family: 'EstablishRetrosans','NexonLv1Gothic';}
+.mainbannertext1 {/* 사회성 향상 */
+    position: absolute; left: 7%; top: 27%; 
+    font-family: 'establish Retrosans OTF'; font-style: normal;
+    font-weight: 400; font-size: 2.8rem; text-align: center; color: #FF4D00;
+    text-shadow:
+    -7px -7px 0 #FFFFFF,
+    7px -7px 0 #FFFFFF,
+    -7px 7px 0 #FFFFFF,
+    7px 7px 0 #FFFFFF;}
+.mainbannertext2 {/* 대화 시뮬레이션 */
+    position: absolute; left: 6%; top: 39%;
+    font-family: 'establish Retrosans OTF'; font-style: normal;
+    font-weight: 400; font-size: 2.8rem; text-align: center;
+    letter-spacing: -0.01em; color: #FFFFFF;}
+.mainbannerstext {/* 이제! 어떤 상황에도, 어떤 상대에도 당당하게 대화할 수 있습니다. */
+    position: absolute; left: 6%; top: 57%;
+    font-family: 'Sandoll GothicNeo2'; font-style: normal;
+    font-weight: 400; font-size: 1.5rem; line-height: 110%; color: #FFFFFF;}
+.bannerback {width: 80%; height: auto; position: relative; left: 200px; bottom: 15px;}
+.mainrobot {width: 38%; height: auto; position: absolute;
+    right: 10%; bottom: 0; transform: translateX(10%);}
+.btn {/* 수강신청 */
+    display: flex; position: absolute; left: 6%; top: 75%;
+        justify-content: center; align-items: center;
+        min-height: 4vh; height: 75px; width: 400px; margin: 0 12px; padding: 16px 32px;
+        background-color: #FFF500; box-shadow:
+        2.6px 3.5px 6.4px rgba(0, 0, 0, 0.043),
+        8.7px 11.6px 21.4px rgba(0, 0, 0, 0.055),
+        39px 52px 96px rgba(0, 0, 0, 0.07);
+        font-family: 'NexonLv1Gothic'; font-style: normal;
+        font-weight: 700; font-size: 1.8rem;
+        color: #000; outline: none; border: none; text-decoration: none;
+        border-radius: 50px;}
+.btntx {/* 하러가기 */ color: #FF4D00; padding-left: 10px;}
+.btn-jittery {animation: jittery 4s 1s infinite;}
+@keyframes jittery {
+    5%,50% {transform: scale(1);}
+    10% {transform: scale(0.9);}
+    15% {transform: scale(1.15);}
+    20% {transform: scale(1.15) rotate(-5deg);}
+    25% {transform: scale(1.15) rotate(5deg);}
+    30% {transform: scale(1.15) rotate(-3deg);}
+    35% {transform: scale(1.15) rotate(2deg);}
+    40% {transform: scale(1.15) rotate(0);}
+    }
+.eventline {display: flex; position: fixed; z-index: 10;
+    width: 100vw; height: 25px; top: 9%;
+    background-color: #000; border: none;
+    justify-content:right; align-items: center;
+    color: #FFF500; font-family: 'Sandoll GothicNeo2'; font-style: normal; font-weight: 400;
+    font-size: 1.5rem; letter-spacing: 0.01em; margin: 0;}
+.eventtext {/* 최저가 수강신청! 혜택 마감까지*/
+    display: block; z-index: 10;
+    animation: textmove 6s ease-in infinite;}
+@keyframes textmove {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-400%);}
+    }
+#page2 {background-color: #F37F4D;}
+.newspaper1 {/* '코로나 집콕' 청소년들, 고립 심화… "스마트폰이 친구" */
+    width: 20%; height: auto; position: absolute; z-index: 2;
+    left: 21%; top: 116%;}
+.newspaper2 {/* MZ세대가 사회성 낮다? "사회성 점수 X세대가 더 낮아" */
+    width: 20%; height: auto; position: absolute; z-index: 2;
+    left: 39.5%; top: 119%;}
+.newspaper3 {/* '2살 이전 스마트폰 과다 노출' 사회성 발달 늦춘다 */
+    width: 20%; height: auto; position: absolute; z-index: 3;
+    left: 13%; top: 145%;}
+.newspaper4 {/* 코로나19 이후 "사회성 결여 우려 목소리 높아" */
+    width: 20%; height: auto; position: absolute; z-index: 3;
+    left: 36%; top: 150%;}
+.newspaper5 {/* MZ 사원이 불편한 직장인들 "사회성 떨어진다" 비판 */
+    width: 20%; height: auto; position: absolute; z-index: 4;
+    left: 66%; top: 112.5%;}
+.newspaper6 {/* 'MZ라서' 이 말에 뿔났다 … 사회성 없다고 몰아가지 말라 */
+    width: 20%; height: auto; position: absolute; z-index: 4;
+    left: 51%; top: 146%;}
+#page3 {background-color: #F37F4D; position: static; z-index: 0;}
+.page3-backbox {background-color: #D15520; position: static; z-index: 2; opacity: 0.7;
+    width: 100%; height: 100%; left: 50%; top: 50%;}
+.newspaper-1 {width: 20%; height: auto; position: absolute; z-index: 1;
+    left: 21%; top: 211%;}
+.newspaper-2 {width: 20%; height: auto; position: absolute; z-index: 1;
+    left: 39.5%; top: 224%;}
+.newspaper-3 {width: 20%; height: auto; position: absolute; z-index: 1;
+    left: 13%; top: 240%;}
+.newspaper-4 {width: 20%; height: auto; position: absolute; z-index: 1;
+    left: 36%; top: 245%;}
+.newspaper-5 {width: 20%; height: auto; position: absolute; z-index: 1;
+    left: 66%; top: 207.5%;}
+.newspaper-6 {width: 20%; height: auto; position: absolute; z-index: 1;
+    left: 51%; top: 231%;}
+.page3-text {/* 이대로 괜찮은가? */
+    position: absolute; z-index: 4;
+    top: 220%; left: 50%; transform: translateX(-50%);
+    font-family: 'NEXONLv1Gothic'; font-style: normal;
+    font-weight: 700; font-size: 3.8rem;
+    line-height: 110px; color: #FFFFFF;}
+.page3-box {position: absolute; z-index: 3;
+    width: 45vw; height: 30vw; top: 250%;
+    left: 50%; transform: translateX(-50%);
+    background-color: #FFFFFF; opacity: 0.9;
+    text-align: center; overflow: hidden;}
+.page3-subtx {/* 심화되는 소통의 문제 해결책의 부재 각자 향유하는 낯선 문화 */
+    position: absolute; left: 50%; transform: translateX(-50%);
+    font-family: 'Sandoll GothicNeo2'; font-style: normal; font-weight: 400;
+    font-size: 1.8rem; line-height: 220%; text-align: center;
+    color: #000;}
+#page4 {background-color: #FFFFFF;
+    position: relative; z-index: 2; width: 100%; height: 100vh;}
+.backarrow {width: 59.2vw; height: auto; position: absolute; z-index: 3;
+    left: 50%; transform: translateX(-50%); top: 0;}
+.page4text1 {/* 이 모든 문제의 원인은 바로*/
+    position: absolute; left: 50%; transform: translateX(-50%); top: 45%;
+    font-family: 'NEXON Lv1 Gothic OTF'; font-style: normal; font-weight: 700;
+    font-size: 4.5rem; line-height: 100px;
+    text-align: center; color: #000000;}
+.page4tx1 {/*사회성!*/ color: #FF4D00;}
+#page5 {background-color: #F37F4D; overflow: hidden;}
+.page5box {position: absolute; width: 70%; height: 80%; z-index: 2;
+    left: 50%; transform: translateX(-50%); top: 417%;
+    background: #FFFFFF; border: 4px solid #FFF500;
+    border-radius: 30px;}
+.page5text {/* Q. 사회성은 타고나야 한다 ? */
+    position: absolute; left: 20%; top: 0;
+    font-family: 'NEXONLv1Gothic'; font-style: normal; font-weight: 700;
+    font-size: 4rem; line-height: 130%;
+    text-align: center; color: #8E8E8E;}
+.robotver2 {width: 35%; height: auto; position: absolute; z-index: 3;
+    left: 50%; top: 432.8%;}
+.page5subtx1 {/* A. 아닙니다! */
+    position: absolute; left: 10%; top: 40%;
+    font-family: 'NEXONLv1Gothic'; font-style: normal;
+    font-weight: 700; font-size: 2.1rem; line-height: 100%;
+    color: #000000;}
+.page5subsu {color: #FF4D00;}
+#page6 {background-color: #FFFFFF;}
+.page6-boom {position: absolute; width: 50%; height: auto; z-index: 3;
+    left: 50%; transform: translateX(-50%); top: 522%;}
+#page7 {background-color: #F37F4D;}
+.page7-text {/* 국내 최초! 시뮬레이션 방식의 사회성 향상 코칭 */
+    position: absolute; left: 50%; transform: translateX(-50%); top: 610%; z-index: 3;
+    font-family: 'NEXONLv1Gothic'; font-style: normal; font-weight: 400;
+    font-size: 2.1rem; line-height: 150%; text-align: center;
+    color: #FFFFFF; text-decoration-line: none;}
+#page8 {background-color: #FFFFFF;}
+.page8-graph {position: absolute; width: 55%; height: auto; z-index: 3;
+    left: 50%; transform: translateX(-50%); top: 732%;}
+#page9 {background-color: #FFFFFF;}
+.page9-text {/* 수많은 후기와 리뷰들로 증명된 모이고파 시뮬레이션! */
+    position: absolute; left: 50%; transform: translateX(-50%); top: 815%; z-index: 3;
+    font-family: 'NEXONLv1Gothic'; font-style: normal; font-weight: 900;
+    font-size: 2.5rem; line-height: 130%; text-align: center;
+    color: #000000;}
+#page10 {background-color: #F37F4D;}
+.page10-text {/* 시뮬레이션 기반 사회성 강화 완전 학습 지금 바로 시작해보세요. */
+    position: absolute; left: 50%; transform: translateX(-50%); top: 920%; z-index: 5;
+    font-family: 'NEXONLv1Gothic'; font-style: normal; font-weight: 700; 
+    font-size: 2.5rem; line-height: 130%; 
+    text-align: center; color: #000000;}
